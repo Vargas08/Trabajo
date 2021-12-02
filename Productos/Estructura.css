@@ -1,0 +1,37 @@
+* {
+  margin:0px;
+  padding:0;
+}
+
+body {
+  background:#9CA1D0;
+}
+
+header, .main, footer {
+  width: 90%;
+  max-width:1000px;
+  margin:20px auto;
+}
+
+.main .articles {
+  width: 98%;
+  margin-right:2%;
+  float: left;
+}
+
+.main .articles article {
+  padding:15px;
+  background: #fff;
+  margin-bottom:15px;
+}
+
+footer {
+  background:#000;
+  color: #fff;
+  clear: both;
+  padding: 10px 0px;
+  text-align:center;
+}
+
+
+

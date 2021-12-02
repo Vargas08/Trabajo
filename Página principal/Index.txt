@@ -1,0 +1,20 @@
+<html>
+<head>
+	<title> Práctica 5 </title>
+	<link href="E:\Users\Belleza de Cantina\Documents\ANDRES\UMSNH\7 SEM\DIS GRÁFICO\U2\Práctica 5\Estructura.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+   <header> 
+	<div class="logotipo">
+		<img src="E:\Users\Belleza de Cantina\Documents\ANDRES\UMSNH\7 SEM\DIS GRÁFICO\U2\Práctica 5/FCCA.png" width"100" alt"">
+	</div>
+	<nav>
+		<ul>
+			<li><a href="#">Inicio</a></li>
+			<li><a href="#">Acerca de</a></li>
+			<li><a href="#">Servicios</a></li>
+			<li><a href="#">Contacto</a></li>
+		<ul>
+	<nav>
+   </header>

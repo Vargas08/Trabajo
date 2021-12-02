@@ -1,0 +1,39 @@
+* { /*todos los elementos con margin y paddin de zero*/
+  margin:0px;
+  padding:0;
+}
+
+body {
+  background:#F0B27A; /*fondo de la pag en tono naranja*/
+}
+
+header, .main, footer { /*dimenciones para encabezado, contenedor y pie de pág*/
+  width: 90%;
+  max-width:1000px;
+  margin:20px auto;
+}
+
+
+
+.main .articles { 
+  width: 98%; /*ancho respeto al area delimitada*/
+  float: left; /*recorrer a la izquierda*/
+}
+
+.main .articles article { /*propiedades extra de -article-*/
+  padding:15px;
+  background: #fff;
+  margin-bottom:15px; /*margen inferior*/
+}
+
+
+footer { /*propiedades extra del pie de pag*/
+  background:#000;
+  color: #fff;
+  clear: both; /*para mover asta abajo sin elementos a los lados*/
+  padding: 10px 0px;
+  text-align:center;
+}
+
+
+

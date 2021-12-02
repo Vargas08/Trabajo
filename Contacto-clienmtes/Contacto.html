@@ -1,0 +1,90 @@
+
+
+
+<html>
+<head>
+	<!--Título de la pestaña + link a hojas de estilos-->
+	<title>Contacto-Cliente</title>
+	<link href="C:\Users\andre\Documents\7 Sem\DIS GRÁFICO\U2\Proyecto\Contacto-clienmtes\Estilos_formulario.css" rel="stylesheet" type="text/css">
+	<link href="C:\Users\andre\Documents\7 Sem\DIS GRÁFICO\U2\Proyecto\Contacto-clienmtes\Estructura c.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+   <!--Un logo en la parte superior izquierda-->
+   <header> 
+	<div class="logotipo">
+		<img src="C:\Users\andre\Documents\7 Sem\DIS GRÁFICO\U2\Proyecto\Imágenes/logo.jpeg" width"100" alt"">
+	</div>
+	
+   </header>
+
+
+ <!--Un main contenedor para el contenido de la página-->
+ <section class="main">
+	<section class="articles">
+		<article>
+	<center>
+	<h2> Apson-Petprops </h2>
+	</center>
+
+	<center>
+
+		<h1> Contáctenos </h1>
+
+	<!--Un formulario con los sig elementos-->
+	<form>
+		<!--Nombre de máximo 50 caracteres-->
+		<label for="nombre">Nombre: </label>
+		<input type="text" name="nombre" size="25" maxlength="50"><br><br>
+
+		<!--Nombre de máximo 50 caracteres-->
+		<label for="apellidos"> Apellidos: </label>
+		<input type="text" name="apellidos" size="25" maxlength="50"><br><br>
+
+		<!--teléfono de 10 a 14 caracteres-->
+		<label for="celular"> Celular: </label>
+		<input type="num" name="celular" size="25" minlength="10" maxlength="14"><br><br>
+		
+		<!--mail-->
+		<label for="mail">Mail: </label>
+		<input type="email" name="mail" ><br><br>
+		
+		<!--descripción de producto de máximo 50 caracteres-->
+		<label for="producto"> Producto: </label>
+		<input type="text" name="producto" size="25" maxlength="100"><br><br>
+
+		<!--cantidad-->
+		<label for="cantidad"> Cantidad: </label>
+		<input type="text" name="cantidad" size="25" maxlength="50"><br><br>
+
+		<!--botones de pago excluyentes-->
+		<label for="pago">Forma de pago: </label>
+		<input type="radio" name="pago"> Tarjeta 
+		<input type="radio" name="pago"> Depósito
+		<input type="radio" name="pago"> Pago en OXXO <br><br>
+
+		<!--casillas de verificación con espam marcado por defecto-->
+		<p align="left">
+		<input type="checkbox" checked> Deseo recibir información sobre novedades y ofertas <br>
+		<input type="checkbox" > Declaro haber leído y aceptar las condiciones generales del programa y la normativa sobre protección de datos </p><br>
+
+		<!--botones de enviar y borrar-->
+		<input type="submit" value="Enviar">
+		<input type="Reset" value="Borrar">
+
+	</form>
+	</center>
+
+	</article>
+
+
+
+	<!--Agregamos un pie de página con los nombres de los integrantes del equipo-->
+	<footer>
+		<p>Estefanía Sanchez Soto - Xochitl Donashii Hernandez Aguilar
+		- Vargas Cazares Andres - Sami David Guzman Gomez</p>
+	</footer>
+
+</body>
+</html>
+

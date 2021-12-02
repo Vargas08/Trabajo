@@ -1,0 +1,18 @@
+p
+{
+ width:90%; /*ancho del area del texto con respecto al area de trabajo*/
+ background: #ADD8E6;/*fondo azul claro*/
+ margin:20px; /*margen externo de la caja a la pantalla*/
+ padding:10px; /*margen interno de la caja al texto*/
+ border:3px solid;
+}
+
+
+img
+{
+ width:300px; /*ancho*/
+ height:auto; /*alto auto, % o px*/
+ border-radius:50%;/*herramienta para redondear los bordes de una caja*/ 
+ box-shadow:5px 5px 15px #ADD8E6; /*efecto de sombra alrededor del marco color azul*/
+ /*el pixelaje corresponde a: horizontal, vertical y, nivel de difuminacion de sombra (0=difuminado visible)*/
+}

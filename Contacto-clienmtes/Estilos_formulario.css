@@ -1,0 +1,77 @@
+
+form {
+   width: 35%; /*ancho con respécto al area de la pantalla*/
+   border: 5px solid #A9DFBF; /*borde en tono verdoso de 5 pixeles*/
+   margin: 20px; /*margen externo de la caja a la pantalla*/
+   padding: 20px; /*margen interno del formulario*/
+}
+
+
+label {
+   font-size:12px; /*tamaño de fuente*/
+   display:block; /*para tomar las etiquetas como bloques*/
+   width: 100%; /*ancho con respécto al area de trabajo*/
+}
+
+
+textarea { /*minimos y maximos verticaloes en el reescalado de monitores*/
+   resize:vertical;
+   max-height: 250px;
+   min-height: 50px;
+}
+
+input, textarea {
+   margin-bottom:15px; /*margen en los botones*/
+   width: 90%;
+   padding: 10px; /*margen interno de la caja al texto*/
+   box-sizing: border-box; /*hace que el padding y el border pasen a formar parte del cálculo del ancho de la caja*/
+   border: 1px solid #ccc;
+   
+}
+
+
+input:focus, textarea:focus {
+   border:3px solid #1668C4; /*tamaño y color del borde cuando seleccionamos un elemento*/
+}
+
+
+input[type="radio"]{ /*margenes y ancho de los botones mutuamente excluyentes*/
+   margin-bottom:10px;
+   width: 10%;
+}
+
+
+input[type="checkbox"]{ /*margenes y ancho de las casillas de verificación*/
+   margin-bottom:10px;
+   width: 10%;
+}
+
+
+input:hover {
+   cursor: pointer; /*cambia el diseño del puntero al pasar sobre un imput*/
+}
+
+
+input[type="submit"]{ /*diseño del boton de enviar*/
+   margin-bottom:0;
+   background: #1668C4;
+   color: #fff;
+   border: none;
+}
+
+input[type="submit"]:hover { /*cambios sobre el boton enviar al posicionar el cursor sobre él*/
+   background:#F9E79F; /*para cambiar color de fondo cuando el puntero esté sobre el menú de navegación*/
+   cursor: pointer;
+}
+
+input[type="Reset"]{ /*diseño del boton de borrar*/
+   margin-bottom:0;
+   background: #1668C4;
+   color: #fff;
+   border: none;
+}
+
+input[type="Reset"]:hover { /*cambios sobre el boton borrar al posicionar el cursor sobre él*/
+   background:#F9E79F; /*para cambiar color de fondo cuando el puntero esté sobre el menú de navegación*/
+   cursor: pointer;
+}
